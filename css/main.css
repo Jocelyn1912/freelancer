@@ -38,7 +38,7 @@ a{ /*Propiedades de los botones*/
 	font-weight: 700;
 }
 
-#section1{ /*Propiedades del fondo de la primera sección*/
+#section1{ /*Propiedades de la primera sección*/
 	width: 100%;
 	height: auto;
 	padding: 0;
@@ -71,7 +71,7 @@ div .lineas{ /*Propiedades de las líneas a los costados de la estrella*/
 	font-weight: 400;
 }
 
-#section2{
+#section2{ /*Propiedades de la segunda sección*/
 	width: 100%;
 	height: auto;
 	background-color: #fff;
@@ -80,7 +80,7 @@ div .lineas{ /*Propiedades de las líneas a los costados de la estrella*/
 	padding-bottom: 100px;
 }
 
-#section2 h4{
+#section2 h4{/*Propiedades título*/
 	margin-top: 90px;
 	margin-bottom: 20px;
 	font-family: 'Montserrat';	
@@ -88,7 +88,7 @@ div .lineas{ /*Propiedades de las líneas a los costados de la estrella*/
 	font-size: 50px;	
 }
 
-div .lineas2{
+div .lineas2{/*Propiedades líneas de los costado de la estrella*/
     height: 5px;
     width: 100px;
     background-color: #2C3E50;
@@ -96,27 +96,30 @@ div .lineas2{
     margin-bottom: 9px;
 }
 
-.images img{
+#section2 div .fa-star{ /*Estrella*/
+	color: #2C3E50;
+}
+.images img{ /*Propiedades de las imágenes*/
 	width: 25%;
 	height: auto;
 	padding: 15px;
 }
 
-#section3{
+#section3{ /*Propiedades de la cuarta parte de la web*/
 	background-color: #18BC9C;
 	padding-top: 20px;
 	text-align: center;
 	padding-bottom: 0;
 }
 
-#section3 h5{
+#section3 h5{/*Título*/
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	font-size: 50px;
 	margin-bottom: 10px;
 }
 
-.text{
+.text{ /*Propiedes textos*/
 	font-family: 'Lato', sans-serif;
 	width: 25%;	
 	align-content: center;
@@ -128,12 +131,7 @@ div .lineas2{
 	display: inline-block;	
 }
 
-#section3 div a{
-	text-transform: capitalize;
-	font-size: 25px;
-}
-
-button{
+button{ /*Propiedades botón Download Theme*/
 	border: 2px solid #fff;
 	background-color: #18BC9C;
 	color: #fff;
@@ -142,12 +140,13 @@ button{
 	padding: 10px;
 	border-radius: 5px;
 }
-#section4{
+
+#section4{ /*Estilos quinta parte, contact me*/
 	text-align: center;
 	align-content: center;
 }
 
-#section4 h6{
+#section4 h6{ /*Propiedades título*/
 	color: #212529;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 50px;
@@ -155,7 +154,11 @@ button{
 	margin-bottom: 30px;
 }
 
-#section4 form{
+#section4 div .fa-star{ /*Color estrella*/
+	color: #2C3E50;
+}
+
+#section4 form{ /*Propiedades formulario*/
     margin-left: 290px;
     padding-top: 30px;
     margin-bottom: 30px;
@@ -173,44 +176,52 @@ button{
     font-family: 'Lato', sans-serif;
 }
 
-button{
+button{ /*Botón Send*/
 	margin-bottom: 90px;
 }
 
-footer{
+footer{ /*Estilos pie de página*/
 	text-align: center;
     background-color: #2C3E50;
-    padding: 7px;
+    height: 300px;   
 }
 
-footer .copyrigth{
-    color: #fff;
-    font-size: 15px;
-    font-family: 'Lato', sans-serif;
-    text-transform: capitalize;
-}
-
-.columns{
-	display: inline-block;
-	width: 350px;
-	height: 200px;
+.columns{ /*Propiedades columnas*/
+	float: left;
+	width: 407px;
+	height: 240px;
 	align-content: center;
 }
 
-.columns h6{
+.columns h6{ /*Títulos columnas*/
 	font-size: 25px;
 	font-family: 'Montserrat', sans-serif;
 	margin-top: 40px;
 	margin-bottom: 30px;
 }
 
-.columns p{
+.fa-facebook, .fa-google-plus, .fa-twitter, .fa-linkedin, .fa-dribbble{ /*íconos*/
+	color: white;
+    font-size: 16px;
+    border: 2px solid #fff;
+    border-radius: 100px;
+    padding: 12px;
+    margin: 5px;
+   
+}
+
+.columns p{ /*Propiedades párrafos*/
 	text-transform: none;
 	font-family: 'Lato', sans-serif;
 	font-size: 20px;
-
 }
 
+footer .copyrigth{ /*texto al final de la web*/
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    text-transform: capitalize;
+}
 
 
 
